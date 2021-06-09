@@ -42,7 +42,7 @@ class Bot(commands.Bot):
         allowed_mentions = discord.AllowedMentions(roles=False, everyone=False, users=True)
         intents = discord.Intents.all()
         super().__init__(command_prefix='.', 
-                         description="The One And Only Empathy's Guard",
+                         description="The One And Only Empathy's Guard\nDm for Mod Mail",
                          fetch_offline_members=False, 
                          allowed_mentions=allowed_mentions, 
                          intents=intents,
